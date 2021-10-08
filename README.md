@@ -12,6 +12,8 @@ docker build . -t hello_world_server
 docker run -p 8000:8000 --env MESSAGE="Bonjour le monde" hello_world_server
 ```
 
+This image is [hosted by DockerHub as `mnomitch/hello_world_server`](https://hub.docker.com/repository/docker/mnomitch/hello_world_server).
+
 ## Inspiration
 
 This repo was inspired by [crccheck/docker-hello-world](https://github.com/crccheck/docker-hello-world).
